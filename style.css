@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: #aaa;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px solid rgba(241, 195, 77, 0.605);
+    padding-bottom: 10px;
+
+    /* 45 +3.33=48.33 */
+    width: 48.33%;
+    
+    margin: 20px auto;
+    /*  */
+    
+
+}
+
+img {
+    width: 100%;
+}
+
+/* IMAGES */
+#main {
+    display: grid;
+    /* Space for images 90% */
+     grid-template-columns: repeat(4,22.5%); 
+     /* Space for gap 10% */
+     column-gap: 3.33%;
+
+     /* Row Gap */
+     row-gap: 6.66%;
+
+
+}
